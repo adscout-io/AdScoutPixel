@@ -14,6 +14,7 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "AdScout Pixel",
+  "categories": ["AFFILIATE_MARKETING", "ADVERTISING", "REMARKETING"],
   "brand": {
     "id": "brand_dummy",
     "displayName": "AdScout",

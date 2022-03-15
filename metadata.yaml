@@ -1,0 +1,5 @@
+homepage: "https://adscout.io"
+documentation: "https://adscout.io/gtm-integration"
+versions:
+  - sha: dcfe40d371aa61878151ac69d5467bfce44ac057
+    changeNotes: Initial Version

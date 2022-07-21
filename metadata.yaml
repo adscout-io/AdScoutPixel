@@ -1,5 +1,7 @@
 homepage: "https://adscout.io"
 documentation: "https://adscout.io/gtm-integration"
 versions:
+  - sha: 40c2adb3d58fff470a12030ac6ef8796f99907b6
+    changeNotes: Rebranding - Updated Logo
   - sha: 04f62bdbb3f2a7280a86375d4a414f6942aae3ad
     changeNotes: Initial Version

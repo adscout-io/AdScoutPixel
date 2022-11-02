@@ -159,7 +159,7 @@ const params = {
       }
 };
 
-log('data =', data);
+//log('data =', data);
 const appendAdScoutScript = 'https://adscout.io/adscout-script/'+data.partnerCode;
 
 const mapProducts = products => {
@@ -202,6 +202,7 @@ const onSuccess = () => {
       
       setInWindow('_adscout', params, true); 
       callInWindow('AdScout.sendToApiPurchaseData');
+      data.gtmOnSuccess();
     }, data.gtmOnFailure, {outputEncoding: 'hex'});
   }
   
@@ -228,7 +229,7 @@ const onFailure = () => {
 };
 
 if (queryPermission('inject_script', appendAdScoutScript)) {
-    injectScript(appendAdScoutScript, onSuccess, onFailure);
+    injectScript(appendAdScoutScript, onSuccess, onFailure, data.partnerCode);
 } else {
     log('Conductrics: Script load failed due to permissions mismatch.');  
     data.gtmOnFailure();

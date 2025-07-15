@@ -4,7 +4,7 @@ privacy_policy_url: "https://adscout.io/privacy-policy"
 support_url: "https://adscout.io/contact"
 
 versions:
-  - sha: f0ec01da0a182be59b7dc42f92d2a72a331224c5
+  - sha: 8bbd8aa2bad16886abf5cd798f54307c0402f934
     changeNotes: "Simplified integration process for different use cases: ConvertiFly-only or full affiliate tracking."
   - sha: 5cd895fb7ffbfb608b2af2fa04d3012d793aaf33
     changeNotes: "Added caching when using injectScript, General Improvements."

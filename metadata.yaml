@@ -1,7 +1,7 @@
 homepage: "https://adscout.io"
 documentation: "https://adscout.io/gtm-integration"
 versions:
-  - sha: eb14eaed93a095fceed286a3e88f2c870234a4ce
+  - sha: c4d494af31b4999f1c1eb946ff50b5ca2169d770
     changeNotes: |2
       Simplified integration process.
       Simplified layout and field options.

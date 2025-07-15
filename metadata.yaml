@@ -1,7 +1,5 @@
 homepage: "https://adscout.io"
 documentation: "https://adscout.io/gtm-integration"
-privacy_policy_url: "https://adscout.io/privacy-policy"
-support_url: "https://adscout.io/contact"
 versions:
   - sha: 8fd842be366de21169d7cbe8823bb7d556f2edd1
     changeNotes: Added privacy policy and support URL in metadata

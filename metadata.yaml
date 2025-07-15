@@ -1,6 +1,8 @@
 homepage: "https://adscout.io"
 documentation: "https://storage.googleapis.com/as-lyb/gtag-intagration.pdf"
 versions:
+  - sha: 9f82aab4eea68d248250d1f2fada33a5a67a1946
+    changeNotes: "Updated Integration Documentation"
   - sha: 591aa9231c0c272777ab679deeba2deca8cdbf3b
     changeNotes: |2
       Simplified integration process.

@@ -1,11 +1,11 @@
 homepage: "https://adscout.io"
 documentation: "https://adscout.io/gtm-integration"
-privacy_policy_url: "https://adscout.io/privacy-policy"
-support_url: "https://adscout.io/contact"
-
 versions:
   - sha: 8bbd8aa2bad16886abf5cd798f54307c0402f934
-    changeNotes: "Simplified integration process for different use cases: ConvertiFly-only or full affiliate tracking."
+    changeNotes: |2
+      Simplified integration process.
+      Simplified layout and field options.
+      Added types of customers.
   - sha: 5cd895fb7ffbfb608b2af2fa04d3012d793aaf33
     changeNotes: "Added caching when using injectScript, General Improvements."
   - sha: 40c2adb3d58fff470a12030ac6ef8796f99907b6
